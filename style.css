@@ -193,13 +193,17 @@ p {
     transition: all 300ms;
 }
 
-.btn:hover {
-    transform: scale(1.2);
-}
 #time{
     color: var(--color-of-year);
     margin-left: 5px;
 }
+
+@media (hover: hover) and (pointer: fine) {
+    .btn:hover {
+        transform: scale(1.2);
+    }
+}
+
 @-webkit-keyframes init {
     0% {
         width: 0px;
